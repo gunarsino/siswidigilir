@@ -15,7 +15,8 @@ const VideoCard = ({ video }: any) => {
                     target="blank"
                     >
                 <Thumbnail
-                    thumbnail={video.thumbnail}
+                    single_img={video.single_img}
+                    splash_img={video.splash_img}
                     title={video.title}
                 />
                 </Link>
